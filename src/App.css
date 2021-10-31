@@ -1,0 +1,44 @@
+
+body{
+  margin: 24px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.banner{
+  height: 500px;
+  width: 340px;
+  object-fit: cover;
+}
+.movies-specs{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-name{
+  font-size: 24px;
+  margin: 8px 0px;
+ font-weight: 600;
+}
+
+.movies-container{
+  width: 340px;
+}
+
+.movie-summary{
+font-weight:bold;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.movie-list{
+  display: flex;
+  gap:24px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.like-list{
+  display: flex;
+
+}
